@@ -1,0 +1,9 @@
+{
+  "filter": "Search",
+  "show": "Show",
+  "rows_per_page": "rows per page",
+  "page": "Page",
+  "of": "of",
+  "no_results": "No Result",
+  "confirm_removal": "Really delete this item?"
+}
