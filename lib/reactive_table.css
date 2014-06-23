@@ -49,3 +49,7 @@
 .reactive-table tr:hover .btn-remove-row{
     visibility:inherit;
 }
+
+.reactive-table-no-results{
+    text-align:center;
+}

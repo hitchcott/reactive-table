@@ -79,6 +79,9 @@
         {{/each}}
       </tbody>
     </table>
+    {{#unless count sortedRows}}
+      <div class="reactive-table-no-results">{{i18n 'reactiveTable.noResults'}}</div>
+    {{/unless}}
     {{#if showNavigation}}
       <div class="reactive-table-navigation" reactive-table-group="{{group}}">
         <div class="form-inline form-group rows-per-page">
