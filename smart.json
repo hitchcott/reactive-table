@@ -6,6 +6,7 @@
   "version": "0.3.14",
   "git": "https://github.com/ecohealthalliance/reactive-table.git",
   "packages": {
-    "just-i18n": {}
+    "just-i18n": {},
+    "tap-i18n": {}
   }
 }
