@@ -69,7 +69,7 @@ Define the settings in a helper for the template that calls reactiveTable:
 * `rowClass` : Accepts a function (passes one argument; the row's object) that should returns a string that defines the class of each row.
 * `notStriped`: Boolean. Disables `table-striped` bootstrap CSS class.
 * `updateCollection`: Meteor Collection. Enables UI for inline editing of string values and the removal of documents. Values in the table to can be clicked to update. This feature is currently incompatible fields that use `tmpl`, and only works with `string` or `null` value types. Note that you must pass in a collection (such as `Meteor.users` or a refernece to `new Meteor.Collection('...')`), not a cursor.
-
+* `deleteOnly`: Boolean. If `true`, disables inline-editing, but retains delete capability. Requires `updateCollection` to be set.
 
 ### Styling
 
